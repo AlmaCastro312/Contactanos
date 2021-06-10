@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        [class*='col-']{
+          float:left;
+          padding: 15px;      
+        }
+        .row::after{
+          content: '';
+          display: table;
+          clear: both;
+        }
+        /*celulares*/
+        .col-1{width: 8.33%;}
+        .col-2{width: 16.66%;}
+        .col-3{width: 25%;}
+        .col-4{width: 33.33%;}
+        .col-5{width: 41.66%;}
+        .col-6{width: 50%;}
+        .col-7{width: 58.33%;}
+        .col-8{width: 66.66%;}
+        .col-9{width: 75%;}
+        .col-10{width: 83.33%;}
+        .col-11{width: 91.66%;}
+        .col-12{width: 100%;}  
+        .container{
+            height: 120vh;
+            max-width: 90vw;
+          }
+       
+        /*tablet*/
+        @media only screen and (min-width:432px){
+          .col-m-1{width: 8.33%;}
+          .col-m-2{width: 16.66%;}
+          .col-m-3{width: 25%;}
+          .col-m-4{width: 33.33%;}
+          .col-m-5{width: 41.66%;}
+          .col-m-6{width: 50%;}
+          .col-m-7{width: 58.33%;}
+          .col-m-8{width: 66.66%;}
+          .col-m-9{width: 75%;}
+          .col-m-10{width: 83.33%;}
+          .col-m-11{width: 91.66%;}
+          .col-m-12{width: 100%;}  
+          .container{
+            height: 90vh;
+            max-width: 90vw;
+          }
+        
+        }
+        /*pc*/
+        @media only screen and (min-width:770px){
+          .col-g-1{width: 8.33%;}
+          .col-g-2{width: 16.66%;}
+          .col-g-3{width: 25%;}
+          .col-g-4{width: 33.33%;}
+          .col-g-5{width: 41.66%;}
+          .col-g-6{width: 50%;}
+          .col-g-7{width: 58.33%;}
+          .col-g-8{width: 66.66%;}
+          .col-g-9{width: 75%;}
+          .col-g-10{width: 83.33%;}
+          .col-g-11{width: 91.66%;}
+          .col-g-12{width: 100%;} 
+          .container{
+            height: 600px;
+            max-width: 900px;
+          }
+        }
+       
+        .header{
+            height: 10vh;
+        }
+        
+        body{
+            background-image: url(https://elmejorinmigrante.com/wp-content/uploads/2020/03/imagen-azafata-5.jpg);
+            margin:auto;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position-y: center;
+        }
+
+        nav{
+            display: inline-block;
+            text-align: left;
+            top:0;
+            width: 100%;
+            height: 70px;
+            font-size: 16px;
+        }
+        nav a{  
+            text-decoration: none;
+            display: inline-block;
+            padding: 5px 10px;
+            color:white;
+            font-weight: bold;
+            margin:0px 10px;
+        }
+        nav a:hover{
+            color:white;
+            background-color:#FF7F50 ;
+            border-radius: 25px;
+        }
+        .redes{
+            height: 25px;
+        }
+        .title, .action{
+            position:absolute;
+        }
+        .title{
+            width: 100%;
+            height: 80px;
+            text-align: center;
+            top:calc(350%);
+            color:white;
+        }
+        .title h1{
+            color:blanchedalmond
+            font-family Arial, Helvetica, sans-serif;
+            font-size: 10vh;
+            padding-bottom: 20px;
+        }
+        h2{
+            font-size: 1.5em;  
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            text-align: center;;
+        }
+        .container{ 
+            background-color:rgba(66, 34, 180, 0.308);
+            margin-left: 100px;
+            margin-right:600px;
+            margin-top: 85px;
+            height: 500px;
+            width: 600px;
+            top:40%;
+        }
+        input, textarea{
+            width: 100%;
+        }
+        input[type=text],input[type=email], textarea{
+            background-color: transparent;
+            border:none;
+            outline:none;
+            color:white;
+            border-bottom: 2px solid black;
+            padding:10px 10px;
+            font-size: 1.2em;
+            
+        }
+        input[type=submit] {
+            background-color:#B70E21 ;
+            color:white;
+            padding:10px 10px;
+            text-transform: uppercase;
+            border:none;
+            outline: none;
+            cursor:pointer;
+
+        }
+        input[type=submit]:hover{
+            background-color:#e91e35 ;
+        }
+        .info{
+            background-color:DimGray;
+           
+        }
+        h3{
+            font-size: 1.5em;  
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            text-align: center;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="header">
+        <nav>
+            <img height="35px" width="100px" src="https://www.viajesdiallo.com/uploads/javFC4DK/logo.png">
+            <a href="https://almacastro312.github.io/Pagina_Principal/">Pagina Principal</a>
+            <a href="https://almacastro312.github.io/Quienes_Somos/">¿Quiénes Somos?</a>
+            <a href="https://almacastro312.github.io/Vuelos_Disponibles/">Vuelos Disponibles</a>
+            <a href="#">|</a>
+            <a href="https://m.facebook.com/profile.php?id=100015916352754" target="blank"><img class="redes" src="https://images.vexels.com/media/users/3/137253/isolated/preview/90dd9f12fdd1eefb8c8976903944c026-logotipo-del-icono-de-facebook-by-vexels.png">
+            <a href="https://instagram.com/s_o_f_i_a_c_17?utm_medium=copy_link" target="blank"><img class="redes" src="https://i.pinimg.com/originals/3b/21/c7/3b21c7efd2ba9c119fb8d361acacc31d.png"></a>
+        </nav>
+    </div>
+    <div class="container">
+
+        <div class="col-g-8 col-m-12">
+            <h2>¡Contáctanos o Escríbenos!</h2>
+
+            <div class="col-g-6 col-m-6 col-12">
+                <label for="name">Nombre Completo</label>
+                <input type="text" id="name" name="name">
+            </div>
+
+            <div class="col-g-6 col-m-6 col-12">
+                <label for="mail">Correo Electronico</label>
+                <input type="email" id="mail" name="mail">
+            </div>
+
+            <div class="col-g-6 col-m-6 col-12">
+                <label for="phone">Numero Telefonico</label>
+                <input type="text" id="phone" name="phone">
+            </div>
+
+            <div class="col-g-6 col-m-6 col-12">
+                <label for="text">Asunto</label>
+                <input type="text" id="asunto" name="asunto">
+            </div>
+
+            <div class="col-g-12 col-m-12 col-12">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows=5></textarea>
+            </div>
+
+            <div class="col-g-12 col-m-12 col-12">
+                <input type="submit" value="Send">
+            </div>
+        </div>
+       
+    </div>
+    </body>
+    </html>
